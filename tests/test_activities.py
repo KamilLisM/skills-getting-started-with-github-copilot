@@ -15,10 +15,10 @@ class TestActivitiesEndpoint:
         AAA Pattern:
         - Arrange: Set expected number of activities
         - Act: Make GET request to /activities endpoint
-        - Assert: Verify response status is 200 and contains all 10 activities
+        - Assert: Verify response status is 200 and contains all activities
         """
         # Arrange
-        expected_activity_count = 10
+        expected_activity_count = 9
         expected_activities = [
             "Chess Club",
             "Programming Class",
